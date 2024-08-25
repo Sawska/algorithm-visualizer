@@ -5,17 +5,21 @@
 #include <GLFW/glfw3.h>
 #include <GL/glut.h>
 #include <iostream>
-#include <tree.h>  
 #include <string>
-#include "graph.h"
+#include "tree.h"
 #include "LinkedList.h"
+#include "graph.h"
 #include "MyStack.h"
 
-class Tree_Vizualizer {
+
+class GraphNode;
+class TreeNode;
+
+class TreeVizualizer {
 public:
     GLFWwindow* window;
 
-    Tree_Vizualizer() {
+    TreeVizualizer() {
         if (!glfwInit()) {
             std::cerr << "ERROR: could not start GLFW3" << std::endl;
             exit(EXIT_FAILURE);
@@ -39,20 +43,19 @@ public:
         std::cout << "OpenGL version supported " << version << std::endl;
     }
 
-    ~Tree_Vizualizer() {
+    ~TreeVizualizer() {
         glfwTerminate();
     }
 
-    void drawCircle(float x, float y, float radius, int value);
+    void drawCircle(float x, float y, float radius, int value, int hexcode);
     void drawDiagonalLine(float x1, float y1, float x2, float y2);
-    void drawTreeNode(TreeNode* node, float x, float y, float xOffset, float yOffset);
-    void drawGraph(GraphNode* node, float x, float y, float xOffset, float yOffset);
+    void drawTreeNode(TreeNode* node, float x, float y, float xOffset, float yOffset, int hexcode);
+    void drawGraph(GraphNode* node, float x, float y, float xOffset, float yOffset, int hexcode);
     void drawLinkedList(LinkedList* list, float x1, float y1, float x2, float y2, float xOffset, float yOffset);
-    void drawRectangle(float x1, float y1, float x2, float y2, float xOffset, float yOffset,int value);
+    void drawRectangle(float x1, float y1, float x2, float y2, float xOffset, float yOffset, int value);
     void drawStraightLine(float x1, float y1, float x2, float y2);
-
-
     void drawStack(MYSTACK<int>* stack, float x1, float y1, float x2, float y2, float xOffset, float yOffset);
+    void hexToRgb(int hexValue, float& r, float& g, float& b);
 };
 
 #endif // TREEVIZUALIZER_H

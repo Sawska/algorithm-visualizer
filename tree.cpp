@@ -1,4 +1,5 @@
-#include <tree.h>
+#include "tree.h"
+#include "TreeVisualizer.h"
 
 void TreeNode::insert_node(TreeNode* node, TreeNode* head) {
     if (node->value < head->value) {
@@ -46,25 +47,24 @@ TreeNode* TreeNode::delete_node(int value, TreeNode* head) {
     return head;
 }
 
-bool TreeNode::DFS(int value,TreeNode* head) {
-    
-     if (head == nullptr) {
+bool TreeNode::BFS(int value, TreeNode* head, TreeVizualizer visualizer, bool paint) {
+    if (head == nullptr) {
         return false;
     }
 
-        if(head->value == value)
-        {
-            return true;
-        } else {
-            return BFS(value,head->left) || BFS(value,head->right);
-        }
+    
+    if (paint) {
+        visualizer.drawTreeNode(head, 0.0f, 0.0f, 1.0f, 1.0f, 0x00FF00); 
+    }
+
+    if (head->value == value) {
+        return true;
+    } else {
+        return DFS(value, head->left, visualizer, true) || DFS(value, head->right, visualizer, true);
+    }
 }
 
-
-
-
-
-bool TreeNode::BFS(int value, TreeNode* head) {
+bool TreeNode::DFS(int value, TreeNode* head, TreeVizualizer visualizer, bool paint) {
     if (head == nullptr) {
         return false;
     }
@@ -76,9 +76,16 @@ bool TreeNode::BFS(int value, TreeNode* head) {
         TreeNode* current = q.front();
         q.pop();
 
+
+        if (paint) {
+            visualizer.drawTreeNode(current, 0.0f, 0.0f, 1.0f, 1.0f, 0x00FF00); 
+        }
+
+
         if (current->value == value) {
             return true;
         }
+
 
         if (current->left != nullptr) {
             q.push(current->left);

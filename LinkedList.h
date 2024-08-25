@@ -10,7 +10,7 @@ public:
     LinkedList(int val) : value(val), previous(nullptr), next(nullptr) {}
 
     void add(int value, LinkedList* head);
-    void remove(int value, LinkedList*& head);
+    void remove(int value, LinkedList* head);
 };
 
 #endif // LINKEDLIST_H

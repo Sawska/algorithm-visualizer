@@ -1,7 +1,8 @@
-#include <TreeVisualizer.h>
+#include "TreeVisualizer.h"
 #include <cmath>
 #include <GL/glut.h>
 #include <sstream>
+const int WHITE = 0xFFFFFF;
 
 
 int stringToInt(const std::string& str) {
@@ -12,13 +13,17 @@ int stringToInt(const std::string& str) {
     return value;
 }
 
-void Tree_Vizualizer::drawCircle(float x, float y, float radius, int value) {
+void TreeVizualizer::drawCircle(float x, float y, float radius, int value, int hexCode) {
     int triangleAmount = 40;
     float twicePi = 2.0f * M_PI;
 
+
+    float r, g, b;
+    hexToRgb(hexCode, r, g, b);
+
     glBegin(GL_TRIANGLE_FAN);
-    glColor3ub(238, 139, 21); 
-    glVertex2f(x, y); 
+    glColor3f(r, g, b); 
+    glVertex2f(x, y);
     for (int i = 0; i <= triangleAmount; i++) {
         glVertex2f(
             x + (radius * cos(i * twicePi / triangleAmount)),
@@ -27,7 +32,8 @@ void Tree_Vizualizer::drawCircle(float x, float y, float radius, int value) {
     }
     glEnd();
 
-
+    
+    glColor3f(1.0f, 1.0f, 1.0f); 
     glRasterPos2f(x - radius / 2, y - radius / 2);
     std::string valStr = std::to_string(value);
     for (char c : valStr) {
@@ -35,39 +41,34 @@ void Tree_Vizualizer::drawCircle(float x, float y, float radius, int value) {
     }
 }
 
-void Tree_Vizualizer::drawDiagonalLine(float x1, float y1, float x2, float y2) {
+
+void TreeVizualizer::drawDiagonalLine(float x1, float y1, float x2, float y2) {
     glBegin(GL_LINES);
     glVertex2f(x1, y1);
     glVertex2f(x2, y2);
     glEnd();
 }
 
-void Tree_Vizualizer::drawTreeNode(TreeNode* node, float x, float y, float xOffset, float yOffset) {
+void TreeVizualizer::drawTreeNode(TreeNode* node, float x, float y, float xOffset, float yOffset, int hexcode = WHITE) {
     if (!node) return;
 
-    drawCircle(x, y, 0.05f, node->value);
+    drawCircle(x, y, 0.05f, node->value, hexcode);
 
     if (node->left) {
         drawDiagonalLine(x, y, x - xOffset, y - yOffset);
-        drawTreeNode(node->left, x - xOffset, y - yOffset, xOffset / 2, yOffset);
+        drawTreeNode(node->left, x - xOffset, y - yOffset, xOffset / 2, yOffset, WHITE);
     }
 
     if (node->right) {
         drawDiagonalLine(x, y, x + xOffset, y - yOffset);
-        drawTreeNode(node->right, x + xOffset, y - yOffset, xOffset / 2, yOffset);
+        drawTreeNode(node->right, x + xOffset, y - yOffset, xOffset / 2, yOffset, WHITE);
     }
 }
 
-void Tree_Vizualizer::drawGraph(GraphNode* node, float x, float y, float xOffset, float yOffset) {
+void TreeVizualizer::drawGraph(GraphNode* node, float x, float y, float xOffset, float yOffset,int hexcode) {
     if (!node) return;
-
-    
     int nodeValue = stringToInt(node->name);
-
-    
-    drawCircle(x, y, 0.05f, nodeValue);
-
-
+    drawCircle(x, y, 0.05f, nodeValue,hexcode);
     for (const auto& edge : node->edges) {
         GraphNode* neighbor = edge.first;
         int weight = edge.second; 
@@ -76,11 +77,11 @@ void Tree_Vizualizer::drawGraph(GraphNode* node, float x, float y, float xOffset
         float newY = y - yOffset;
 
         drawDiagonalLine(x, y, newX, newY);
-        drawGraph(neighbor, newX, newY, xOffset / 2, yOffset);
+        drawGraph(neighbor, newX, newY, xOffset / 2, yOffset,WHITE);
     }
 }
 
-void Tree_Vizualizer::drawLinkedList(LinkedList* list, float x1, float y1, float x2, float y2, float xOffset, float yOffset) {
+void TreeVizualizer::drawLinkedList(LinkedList* list, float x1, float y1, float x2, float y2, float xOffset, float yOffset) {
     if (!list) return;
 
 
@@ -103,7 +104,7 @@ void Tree_Vizualizer::drawLinkedList(LinkedList* list, float x1, float y1, float
 
 }
 
-void Tree_Vizualizer::drawStack(MYSTACK<int>* stack, float x1, float y1, float x2, float y2, float xOffset, float yOffset) {    
+void TreeVizualizer::drawStack(MYSTACK<int>* stack, float x1, float y1, float x2, float y2, float xOffset, float yOffset) {    
     while (!stack->empty()) { 
         int topElement = stack->top(); 
         
@@ -118,14 +119,14 @@ void Tree_Vizualizer::drawStack(MYSTACK<int>* stack, float x1, float y1, float x
     }
 }
 
-void Tree_Vizualizer::drawStraightLine(float x1, float y1, float x2, float y2) {
+void TreeVizualizer::drawStraightLine(float x1, float y1, float x2, float y2) {
     glBegin(GL_LINES);
     glVertex2f(x1, y1);  
     glVertex2f(x2, y2);  
     glEnd();
 }
 
-void Tree_Vizualizer::drawRectangle(float x1, float y1, float x2, float y2, float xOffset, float yOffset, int value) {
+void TreeVizualizer::drawRectangle(float x1, float y1, float x2, float y2, float xOffset, float yOffset, int value) {
 
     glBegin(GL_QUADS);
     glVertex2f(x1, y1); 
@@ -135,11 +136,17 @@ void Tree_Vizualizer::drawRectangle(float x1, float y1, float x2, float y2, floa
     glEnd();
 
 
-    glRasterPos2f((x1 + x2) / 2 - 10, (y1 + y2) / 2); // Adjust position based on text size
+    glRasterPos2f((x1 + x2) / 2 - 10, (y1 + y2) / 2); 
 
 
     std::string valStr = std::to_string(value);
     for (char c : valStr) {
         glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, c);
     }
+}
+
+void TreeVizualizer::hexToRgb(int hexValue, float& r, float& g, float& b) {
+    g = ((hexValue >> 8) & 0xFF) / 255.0f; 
+    r = ((hexValue >> 16) & 0xFF) / 255.0f;
+    b = (hexValue & 0xFF) / 255.0f;        
 }

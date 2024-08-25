@@ -1,4 +1,5 @@
 #include "graph.h"
+#include "TreeVisualizer.h"
 
 GraphNode::~GraphNode() {
     for (auto& edge : edges) {
@@ -18,8 +19,8 @@ void GraphNode::delete_node(std::string name) {
     edges.erase(it, edges.end());
 }
 
-void GraphNode::insert_node(GraphNode* node, int edge_weight) {
-    edges.push_back(std::make_pair(node, edge_weight));
+void GraphNode::insert_node(GraphNode* node) {
+    edges.push_back(std::make_pair(node, node->weight));
 }
 
 int GraphNode::minDistance(const std::vector<int>& dist, const std::vector<bool>& sptSet) {
@@ -35,11 +36,12 @@ int GraphNode::minDistance(const std::vector<int>& dist, const std::vector<bool>
     return min_index;
 }
 
-std::vector<GraphNode*> GraphNode::dijkstra(GraphNode* start, GraphNode* end) {
+std::vector<GraphNode*> GraphNode::dijkstra(GraphNode* start, GraphNode* end, TreeVizualizer* visualizer) {
     std::unordered_map<GraphNode*, int> dist;
     std::unordered_map<GraphNode*, GraphNode*> previous;
     std::vector<GraphNode*> unvisited;
 
+    
     for (auto& edge : edges) {
         dist[edge.first] = std::numeric_limits<int>::max();
         unvisited.push_back(edge.first);
@@ -53,22 +55,35 @@ std::vector<GraphNode*> GraphNode::dijkstra(GraphNode* start, GraphNode* end) {
                                                    return dist[lhs] < dist[rhs];
                                                });
 
+       
+        visualizer->drawGraph(current, 0, 0, 10, 10, 0x00FF00);  
+
         if (current == end) break;
 
         unvisited.erase(std::remove(unvisited.begin(), unvisited.end(), current), unvisited.end());
 
+       
         for (auto& neighbor : current->edges) {
-            int alt = dist[current] + neighbor.second;
+            int alt = dist[current] + neighbor.second;  
             if (alt < dist[neighbor.first]) {
                 dist[neighbor.first] = alt;
                 previous[neighbor.first] = current;
+
+
+                visualizer->drawGraph(neighbor.first, 0, 0, 10, 10, 0x0000FF);  
             }
         }
     }
 
+
     std::vector<GraphNode*> path;
     for (GraphNode* at = end; at != nullptr; at = previous[at]) {
         path.insert(path.begin(), at);
+    }
+
+
+    for (auto node : path) {
+        visualizer->drawGraph(node, 0, 0, 10, 10, 0xFF0000);
     }
 
     return path;

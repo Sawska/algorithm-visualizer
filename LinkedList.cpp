@@ -10,7 +10,7 @@ void LinkedList::add(int value, LinkedList* head) {
     }
 }
 
-void LinkedList::remove(int value, LinkedList*& head) {
+void LinkedList::remove(int value, LinkedList* head) {
     LinkedList* current = head;
     while (current != nullptr) {
         if (current->value == value) {

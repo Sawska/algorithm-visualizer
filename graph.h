@@ -6,6 +6,9 @@
 #include <algorithm>
 #include <limits>
 #include <unordered_map>
+#include "TreeVisualizer.h"
+
+class TreeVizualizer;
 
 class GraphNode {
 public:
@@ -18,8 +21,8 @@ public:
     ~GraphNode();
 
     void delete_node(std::string name);
-    void insert_node(GraphNode* node, int edge_weight);
-    std::vector<GraphNode*> dijkstra(GraphNode* start, GraphNode* end);
+    void insert_node(GraphNode* node);
+    std::vector<GraphNode*> dijkstra(GraphNode* start, GraphNode* end,TreeVizualizer* visualizer);
     int minDistance(const std::vector<int>& dist, const std::vector<bool>& sptSet);
 };
 
