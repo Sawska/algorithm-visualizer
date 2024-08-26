@@ -47,24 +47,7 @@ TreeNode* TreeNode::delete_node(int value, TreeNode* head) {
     return head;
 }
 
-bool TreeNode::BFS(int value, TreeNode* head, TreeVizualizer visualizer, bool paint) {
-    if (head == nullptr) {
-        return false;
-    }
-
-    
-    if (paint) {
-        visualizer.drawTreeNode(head, 0.0f, 0.0f, 1.0f, 1.0f, 0x00FF00); 
-    }
-
-    if (head->value == value) {
-        return true;
-    } else {
-        return DFS(value, head->left, visualizer, true) || DFS(value, head->right, visualizer, true);
-    }
-}
-
-bool TreeNode::DFS(int value, TreeNode* head, TreeVizualizer visualizer, bool paint) {
+bool TreeNode::BFS(int value, TreeNode* head, TreeVizualizer& visualizer, bool paint) {
     if (head == nullptr) {
         return false;
     }
@@ -77,15 +60,17 @@ bool TreeNode::DFS(int value, TreeNode* head, TreeVizualizer visualizer, bool pa
         q.pop();
 
 
-        if (paint) {
-            visualizer.drawTreeNode(current, 0.0f, 0.0f, 1.0f, 1.0f, 0x00FF00); 
-        }
-
-
         if (current->value == value) {
+            if (paint) {
+                visualizer.drawTreeNode(current, 0.0f, 0.0f, 1.0f, 1.0f, 0x00FF00); 
+            }
             return true;
         }
 
+
+        if (paint) {
+            visualizer.drawTreeNode(current, 0.0f, 0.0f, 1.0f, 1.0f, 0xFFFFFF);
+        }
 
         if (current->left != nullptr) {
             q.push(current->left);
@@ -97,4 +82,33 @@ bool TreeNode::DFS(int value, TreeNode* head, TreeVizualizer visualizer, bool pa
     }
 
     return false;
+}
+
+bool TreeNode::DFS(int value, TreeNode* head, TreeVizualizer& visualizer, bool paint) {
+    if (head == nullptr) {
+        return false;
+    }
+
+    if (head->value == value) {
+        if (paint) {
+            visualizer.drawTreeNode(head, 0.0f, 0.0f, 1.0f, 1.0f, 0x00FF00);
+        }
+        return true;
+    }
+
+    bool found = false;
+    if (head->left != nullptr) {
+        found = DFS(value, head->left, visualizer, paint);
+    }
+
+    if (!found && head->right != nullptr) {
+        found = DFS(value, head->right, visualizer, paint);
+    }
+
+
+    if (paint && head->value != value) {
+        visualizer.drawTreeNode(head, 0.0f, 0.0f, 1.0f, 1.0f, 0xFFFFFF); 
+    }
+
+    return found;
 }

@@ -23,9 +23,8 @@ class TreeNode {
     }
     void insert_node(TreeNode *node,TreeNode* head);
     TreeNode* delete_node(int value,TreeNode* head); 
-    bool DFS(int value, TreeNode* head, TreeVizualizer visualizer, bool paint);
-    bool BFS(int value, TreeNode* head, TreeVizualizer visualizer, bool paint);
-
+    bool DFS(int value, TreeNode* head, TreeVizualizer& visualizer, bool paint);
+    bool BFS(int value, TreeNode* head, TreeVizualizer& visualizer, bool paint);
 };
 
 #endif // TREE_H

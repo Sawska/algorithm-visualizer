@@ -859,8 +859,6 @@ CMakeFiles/algorithm_visualizer.dir/graph.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/os/availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /opt/homebrew/Cellar/glfw/3.4/include/GLFW/glfw3.h \
-  /opt/homebrew/Cellar/freeglut/3.6.0/include/GL/glut.h \
-  /opt/homebrew/Cellar/freeglut/3.6.0/include/GL/freeglut_std.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ostream \

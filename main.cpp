@@ -4,6 +4,8 @@
 #include "tree.h"
 #include "graph.h"
 
+
+
 const int WHITE = 0xFFFFFF;
 
 
@@ -47,58 +49,65 @@ void show_tree(TreeVizualizer& visualizer) {
     root->right = new TreeNode(3);
     root->left->left = new TreeNode(4);
     root->left->right = new TreeNode(5);
-
-
-    bool found = root->DFS(4, root, visualizer, true); 
-
-    if (found) {
-        std::cout << "Node found!" << std::endl;
-    } else {
-        std::cout << "Node not found!" << std::endl;
-    }
+    bool found = root->DFS(4, root, visualizer, true);
 }
 
 void show_graph(TreeVizualizer& visualizer) {
-    
-    GraphNode node("a",2);
-    GraphNode node1("b",3);
-    GraphNode node2("c",4);
-    GraphNode node3("d",5);
+    auto node = std::make_unique<GraphNode>("a", 2);
+    auto node1 = std::make_unique<GraphNode>("b", 3);
+    auto node2 = std::make_unique<GraphNode>("c", 4);
+    auto node3 = std::make_unique<GraphNode>("d", 5);
 
-    
-    visualizer.drawGraph(&node,0,0,10,10,WHITE);
-
-    
-    node.insert_node(&node1);  
-    visualizer.drawGraph(&node,0,0,10,10,WHITE);
-
-    node1.insert_node(&node2); 
-    visualizer.drawGraph(&node,0,0,10,10,WHITE);
-
-    node1.insert_node(&node3); 
-    visualizer.drawGraph(&node,0,0,10,10,WHITE);
-
-    node.dijkstra(&node,&node3,&visualizer);
-
-    
-    node.delete_node("b"); 
-    visualizer.drawGraph(&node,0,0,10,10,WHITE);
-
-    node.delete_node("d");  
-    visualizer.drawGraph(&node,0,0,10,10,WHITE);
+    visualizer.drawGraph(node.get(), 0, 0, 10, 10, WHITE);
 
 
+    node->insert_node(std::move(node1));
+    visualizer.drawGraph(node.get(), 0, 0, 10, 10, WHITE);
+
+    node->insert_node(std::move(node2));
+    visualizer.drawGraph(node.get(), 0, 0, 10, 10, WHITE);
+
+    node->insert_node(std::move(node3));
+    visualizer.drawGraph(node.get(), 0, 0, 10, 10, WHITE);
+
+    node->dijkstra(node.get(), node3.get(), &visualizer);
+
+    node->delete_node("b");
+    visualizer.drawGraph(node.get(), 0, 0, 10, 10, WHITE);
+
+    node->delete_node("d");
+    visualizer.drawGraph(node.get(), 0, 0, 10, 10, WHITE);
 }
+
+
+
 
 
 int main() {
-    
     TreeVizualizer visualizer;
+    glfwMakeContextCurrent(visualizer.window);
+    int width, height;
+    glfwGetFramebufferSize(visualizer.window, &width, &height);
+    glViewport(0, 0, width, height);
 
-    
-    linked_show(visualizer);
-    // show_stack(visualizer);
 
+
+
+    while (!glfwWindowShouldClose(visualizer.window)) {
+
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+        linked_show(visualizer);
+        // show_stack(visualizer);
+        // show_tree(visualizer);
+        // show_graph(visualizer);
+
+        glfwSwapBuffers(visualizer.window);
+
+        glfwPollEvents();
+    }
     return 0;
 }
+
+
 
