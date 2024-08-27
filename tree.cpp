@@ -62,14 +62,14 @@ bool TreeNode::BFS(int value, TreeNode* head, TreeVizualizer& visualizer, bool p
 
         if (current->value == value) {
             if (paint) {
-                visualizer.drawTreeNode(current, 0.0f, 0.0f, 1.0f, 1.0f, 0x00FF00); 
+             visualizer.drawTreeNode(head, -0.1f, -0.1f, 0.3f, 0.3f, 0x00FF00);
             }
             return true;
         }
 
 
         if (paint) {
-            visualizer.drawTreeNode(current, 0.0f, 0.0f, 1.0f, 1.0f, 0xFFFFFF);
+            visualizer.drawTreeNode(head, -0.1f, -0.1f, 0.3f, 0.3f, 0x00FF00);
         }
 
         if (current->left != nullptr) {
@@ -91,7 +91,7 @@ bool TreeNode::DFS(int value, TreeNode* head, TreeVizualizer& visualizer, bool p
 
     if (head->value == value) {
         if (paint) {
-            visualizer.drawTreeNode(head, 0.0f, 0.0f, 1.0f, 1.0f, 0x00FF00);
+            visualizer.drawTreeNode(head, -0.1f, -0.1f, 0.3f, 0.3f, 0x00FF00);
         }
         return true;
     }
@@ -107,7 +107,7 @@ bool TreeNode::DFS(int value, TreeNode* head, TreeVizualizer& visualizer, bool p
 
 
     if (paint && head->value != value) {
-        visualizer.drawTreeNode(head, 0.0f, 0.0f, 1.0f, 1.0f, 0xFFFFFF); 
+        visualizer.drawTreeNode(head, -0.1f, -0.1f, 0.3f, 0.3f, 0xFFFFFF); 
     }
 
     return found;

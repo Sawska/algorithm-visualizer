@@ -2,6 +2,8 @@
 #include <cmath>
 #include <GL/glut.h>
 #include <sstream>
+#include <cstdlib>  
+#include <ctime>    
 const int WHITE = 0xFFFFFF;
 
 
@@ -19,12 +21,12 @@ void TreeVizualizer::drawCircle(float x, float y, float radius, int value, int h
 
     std::vector<GLfloat> vertices((triangleAmount + 2) * 3);
 
-    
+    // Center of the circle
     vertices[0] = x;
     vertices[1] = y;
     vertices[2] = 0.0f;
 
-
+    // Vertices for the circle
     for (int i = 1; i <= triangleAmount + 1; i++) {
         vertices[i * 3] = x + (radius * cos(i * twicePi / triangleAmount));
         vertices[i * 3 + 1] = y + (radius * sin(i * twicePi / triangleAmount));
@@ -46,19 +48,31 @@ void TreeVizualizer::drawCircle(float x, float y, float radius, int value, int h
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 
-
+    // Convert hexCode to RGB
     float r, g, b;
     hexToRgb(hexCode, r, g, b);
-    glUseProgram(shaderProgram);
-    glUniform3f(glGetUniformLocation(shaderProgram, "FragColor"), r, g, b);
 
+    // Use the shader program and set the color
+    glUseProgram(shaderProgram);
+    GLint colorLocation = glGetUniformLocation(shaderProgram, "uColor");
+    if (colorLocation != -1) {
+        glUniform3f(colorLocation, r, g, b);
+    } else {
+        std::cerr << "ERROR: Could not find uniform location for uColor" << std::endl;
+    }
+
+    // Draw the circle
     glBindVertexArray(VAO);
     glDrawArrays(GL_TRIANGLE_FAN, 0, triangleAmount + 2);
 
+    glBindVertexArray(0);
+    glUseProgram(0);
+
+    // Clean up
     glDeleteBuffers(1, &VBO);
     glDeleteVertexArrays(1, &VAO);
 
-
+    // Draw the value in the center of the circle
     glColor3f(1.0f, 1.0f, 1.0f);
     glRasterPos2f(x - radius / 2, y - radius / 2);
     std::string valStr = std::to_string(value);
@@ -66,6 +80,7 @@ void TreeVizualizer::drawCircle(float x, float y, float radius, int value, int h
         glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, c);
     }
 }
+
 
 
 
@@ -102,6 +117,7 @@ void TreeVizualizer::drawDiagonalLine(float x1, float y1, float x2, float y2) {
 void TreeVizualizer::drawTreeNode(TreeNode* node, float x, float y, float xOffset, float yOffset, int hexcode = WHITE) {
     if (!node) return;
 
+    
     drawCircle(x, y, 0.05f, node->value, hexcode);
 
     if (node->left) {
@@ -135,8 +151,7 @@ void TreeVizualizer::drawLinkedList(LinkedList* list, float x1, float y1, float 
     if (!list) return;
 
 
-    drawRectangle(x1, y1, x2, y2,list->value);
-
+    drawRectangle(x1, y1, x2, y2, list->value);
 
     if (list->next != nullptr) {
 
@@ -146,28 +161,33 @@ void TreeVizualizer::drawLinkedList(LinkedList* list, float x1, float y1, float 
         float nextY2 = y2;
 
 
-        drawStraightLine(x2, y2, nextX1, nextY1);
+        float midY = (y1 + y2) / 2.0f;
+
+
+        drawStraightLine(x2, midY, nextX1, midY);
 
 
         drawLinkedList(list->next, nextX1, nextY1, nextX2, nextY2, xOffset, yOffset);
     }
-
 }
+
 
 void TreeVizualizer::drawStack(MYSTACK<int>* stack, float x1, float y1, float x2, float y2, float xOffset, float yOffset) {
-    while (!stack->empty()) {
-        int topElement = stack->top();
+    MYSTACK<int> tempStack = *stack;  
 
+    while (!tempStack.empty()) {
+        int topElement = tempStack.top();
+        tempStack.pop();
 
+        
         drawRectangle(x1, y1, x2, y2, topElement);
 
-        stack->pop();
-
-
-        y1 -= yOffset;
-        y2 -= yOffset;
+        
+        y1 += yOffset; 
+        y2 += yOffset; 
     }
 }
+
 
 void TreeVizualizer::drawStraightLine(float x1, float y1, float x2, float y2) {
     GLfloat vertices[] = {
@@ -199,20 +219,31 @@ void TreeVizualizer::drawStraightLine(float x1, float y1, float x2, float y2) {
 }
 
 
+
+void TreeVizualizer::output(int x, int y, float r, float g, float b, void* font, const char* string) {
+    glColor3f(r, g, b);  
+    glRasterPos2f(x, y);
+
+    int len = (int)strlen(string);
+    for (int i = 0; i < len; i++) {
+        glutBitmapCharacter(font, string[i]);  
+    }
+}
+
 void TreeVizualizer::drawRectangle(float x1, float y1, float x2, float y2, int value) {
     GLfloat vertices[] = {
-        x1, y1, 0.0f,  // Bottom-left
-        x2, y1, 0.0f,  // Bottom-right
-        x2, y2, 0.0f,  // Top-right
-        x1, y2, 0.0f   // Top-left
+        x1, y1, 0.0f,
+        x2, y1, 0.0f, 
+        x2, y2, 0.0f, 
+        x1, y2, 0.0f  
     };
 
     GLuint indices[] = {
-        0, 1, 2,  // First triangle
-        0, 2, 3   // Second triangle
+        0, 1, 2,  
+        0, 2, 3   
     };
 
-    GLuint VBO, EBO;
+    GLuint VBO, EBO, VAO;
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
     glGenBuffers(1, &EBO);
@@ -231,22 +262,56 @@ void TreeVizualizer::drawRectangle(float x1, float y1, float x2, float y2, int v
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 
+    
+     float r, g, b;
+    getRandomColor(r, g, b);
+
     glUseProgram(shaderProgram);
+    
+    
+    GLint colorLoc = glGetUniformLocation(shaderProgram, "uColor");
+    glUniform3f(colorLoc, r, g, b);
+
     glBindVertexArray(VAO);
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
+    glBindVertexArray(0);
+    glUseProgram(0);
 
     glDeleteBuffers(1, &VBO);
     glDeleteBuffers(1, &EBO);
     glDeleteVertexArrays(1, &VAO);
 
+    float textX = x1 + (x2 - x1) / 2 - 10;
+    float textY = y1 + (y2 - y1) / 2 + 5;
 
-    glColor3f(0.0f, 0.0f, 0.0f); 
-    glRasterPos2f((x1 + x2) / 2 - 10, (y1 + y2) / 2);
     std::string valStr = std::to_string(value);
-    for (char c : valStr) {
-        glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, c);
-    }
+    output(textX, textY, 0.0f, 0.0f, 0.0f, GLUT_BITMAP_TIMES_ROMAN_24, valStr.c_str());
 }
+
+
+
+
+
+
+void TreeVizualizer::initializeRandomColorGenerator() {
+    std::srand(static_cast<unsigned int>(std::time(nullptr)));
+}
+
+
+float TreeVizualizer::getRandomFloat() {
+    return static_cast<float>(rand()) / static_cast<float>(RAND_MAX);
+}
+
+
+void TreeVizualizer::getRandomColor(float& r, float& g, float& b) {
+    r = getRandomFloat();
+    g = getRandomFloat();
+    b = getRandomFloat();
+}
+
+
+
 
 
 

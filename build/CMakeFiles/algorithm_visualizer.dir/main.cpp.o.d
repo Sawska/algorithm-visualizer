@@ -887,4 +887,7 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/unary_negate.h \
   /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/LinkedList.h \
   /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/graph.h \
-  /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/MyStack.h
+  /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/MyStack.h \
+  /opt/homebrew/Cellar/freeglut/3.6.0/include/GL/glut.h \
+  /opt/homebrew/Cellar/freeglut/3.6.0/include/GL/freeglut_std.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/sstream

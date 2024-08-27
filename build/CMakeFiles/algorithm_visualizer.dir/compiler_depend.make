@@ -2516,6 +2516,7 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdexcept \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdint.h \
@@ -2674,6 +2675,8 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/TreeVisualizer.h \
   /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/graph.h \
   /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/tree.h \
+  /opt/homebrew/Cellar/freeglut/3.6.0/include/GL/freeglut_std.h \
+  /opt/homebrew/Cellar/freeglut/3.6.0/include/GL/glut.h \
   /opt/homebrew/Cellar/glew/2.2.0_1/include/GL/glew.h \
   /opt/homebrew/Cellar/glfw/3.4/include/GLFW/glfw3.h
 
