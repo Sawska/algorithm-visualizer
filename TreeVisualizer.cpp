@@ -21,12 +21,12 @@ void TreeVizualizer::drawCircle(float x, float y, float radius, int value, int h
 
     std::vector<GLfloat> vertices((triangleAmount + 2) * 3);
 
-    // Center of the circle
+    
     vertices[0] = x;
     vertices[1] = y;
     vertices[2] = 0.0f;
 
-    // Vertices for the circle
+    
     for (int i = 1; i <= triangleAmount + 1; i++) {
         vertices[i * 3] = x + (radius * cos(i * twicePi / triangleAmount));
         vertices[i * 3 + 1] = y + (radius * sin(i * twicePi / triangleAmount));
@@ -48,11 +48,11 @@ void TreeVizualizer::drawCircle(float x, float y, float radius, int value, int h
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 
-    // Convert hexCode to RGB
+
     float r, g, b;
     hexToRgb(hexCode, r, g, b);
 
-    // Use the shader program and set the color
+
     glUseProgram(shaderProgram);
     GLint colorLocation = glGetUniformLocation(shaderProgram, "uColor");
     if (colorLocation != -1) {
@@ -61,24 +61,20 @@ void TreeVizualizer::drawCircle(float x, float y, float radius, int value, int h
         std::cerr << "ERROR: Could not find uniform location for uColor" << std::endl;
     }
 
-    // Draw the circle
+
     glBindVertexArray(VAO);
     glDrawArrays(GL_TRIANGLE_FAN, 0, triangleAmount + 2);
 
     glBindVertexArray(0);
     glUseProgram(0);
 
-    // Clean up
+    std::string valStr = std::to_string(value);
+    // RenderText(valStr, x - radius / 2, y - radius / 2, 0.5f, glm::vec3(1.0f, 1.0f, 1.0f));
+
     glDeleteBuffers(1, &VBO);
     glDeleteVertexArrays(1, &VAO);
 
-    // Draw the value in the center of the circle
-    glColor3f(1.0f, 1.0f, 1.0f);
-    glRasterPos2f(x - radius / 2, y - radius / 2);
-    std::string valStr = std::to_string(value);
-    for (char c : valStr) {
-        glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, c);
-    }
+
 }
 
 
@@ -119,14 +115,22 @@ void TreeVizualizer::drawTreeNode(TreeNode* node, float x, float y, float xOffse
 
     
     drawCircle(x, y, 0.05f, node->value, hexcode);
+    glfwSwapBuffers(window);
+    delay(0.5f);
 
     if (node->left) {
         drawDiagonalLine(x, y, x - xOffset, y - yOffset);
+        glfwSwapBuffers(window);
+        delay(0.5f);
         drawTreeNode(node->left, x - xOffset, y - yOffset, xOffset / 2, yOffset, WHITE);
+        glfwSwapBuffers(window);
+        delay(0.5f);
     }
 
     if (node->right) {
         drawDiagonalLine(x, y, x + xOffset, y - yOffset);
+        glfwSwapBuffers(window);
+        delay(0.5f);
         drawTreeNode(node->right, x + xOffset, y - yOffset, xOffset / 2, yOffset, WHITE);
     }
 }
@@ -135,6 +139,8 @@ void TreeVizualizer::drawGraph(GraphNode* node, float x, float y, float xOffset,
     if (!node) return;
     int nodeValue = stringToInt(node->name);
     drawCircle(x, y, 0.05f, nodeValue,hexcode);
+    glfwSwapBuffers(window);
+    delay(0.5f);
     for (const auto& edge : node->edges) {
         GraphNode* neighbor = edge.first.get();
         int weight = edge.second;
@@ -143,7 +149,11 @@ void TreeVizualizer::drawGraph(GraphNode* node, float x, float y, float xOffset,
         float newY = y - yOffset;
 
         drawDiagonalLine(x, y, newX, newY);
+        glfwSwapBuffers(window);
+        delay(0.5f);
         drawGraph(neighbor, newX, newY, xOffset / 2, yOffset,WHITE);
+        glfwSwapBuffers(window);
+        delay(0.5f);
     }
 }
 
@@ -152,6 +162,8 @@ void TreeVizualizer::drawLinkedList(LinkedList* list, float x1, float y1, float 
 
 
     drawRectangle(x1, y1, x2, y2, list->value);
+    glfwSwapBuffers(window);
+    delay(2.0f);
 
     if (list->next != nullptr) {
 
@@ -163,8 +175,9 @@ void TreeVizualizer::drawLinkedList(LinkedList* list, float x1, float y1, float 
 
         float midY = (y1 + y2) / 2.0f;
 
-
         drawStraightLine(x2, midY, nextX1, midY);
+         glfwSwapBuffers(window);
+            delay(0.5f);
 
 
         drawLinkedList(list->next, nextX1, nextY1, nextX2, nextY2, xOffset, yOffset);
@@ -176,12 +189,14 @@ void TreeVizualizer::drawStack(MYSTACK<int>* stack, float x1, float y1, float x2
     MYSTACK<int> tempStack = *stack;  
 
     while (!tempStack.empty()) {
+        
         int topElement = tempStack.top();
         tempStack.pop();
 
         
         drawRectangle(x1, y1, x2, y2, topElement);
-
+        glfwSwapBuffers(window);
+        delay(0.5f);
         
         y1 += yOffset; 
         y2 += yOffset; 
@@ -319,4 +334,10 @@ void TreeVizualizer::hexToRgb(int hexValue, float& r, float& g, float& b) {
     g = ((hexValue >> 8) & 0xFF) / 255.0f;
     r = ((hexValue >> 16) & 0xFF) / 255.0f;
     b = (hexValue & 0xFF) / 255.0f;
+}
+
+
+
+void TreeVizualizer::delay(float seconds) {
+    glfwWaitEventsTimeout(seconds);
 }

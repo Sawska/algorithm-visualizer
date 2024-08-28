@@ -145,6 +145,7 @@ TreeVizualizer() {
     void getRandomColor(float& r, float& g, float& b);
     float getRandomFloat();
     void initializeRandomColorGenerator();
+    void delay(float seconds);
 
 private:
     void checkShaderCompileErrors(GLuint shader, const std::string& type) {

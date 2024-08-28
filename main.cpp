@@ -12,6 +12,7 @@
 const int WHITE = 0xFFFFFF;
 
 
+
 void linked_show(TreeVizualizer& visualizer) {
     LinkedList list = LinkedList(0);
     
@@ -21,20 +22,40 @@ void linked_show(TreeVizualizer& visualizer) {
     float yOffset = 0.0f;         
 
     visualizer.drawLinkedList(&list, x1, y1, x2, y2, xOffset, yOffset);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
+
     list.add(0, &list);
     visualizer.drawLinkedList(&list, x1, y1, x2, y2, xOffset, yOffset);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
+
     list.add(1, &list);
     visualizer.drawLinkedList(&list, x1, y1, x2, y2, xOffset, yOffset);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
+
     list.add(2, &list);
     visualizer.drawLinkedList(&list, x1, y1, x2, y2, xOffset, yOffset);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
+
     list.add(3, &list);
     visualizer.drawLinkedList(&list, x1, y1, x2, y2, xOffset, yOffset);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
+
     list.remove(1, &list);
     visualizer.drawLinkedList(&list, x1, y1, x2, y2, xOffset, yOffset);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
+
     list.add(3, &list);
     visualizer.drawLinkedList(&list, x1, y1, x2, y2, xOffset, yOffset);
-}
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
 
+}
 
 
 
@@ -47,14 +68,27 @@ void show_stack(TreeVizualizer& visualizer) {
     float yOffset = -0.1f;      
 
     stack.push(1);
-    stack.push(2);
-    stack.push(3);
-    stack.push(4);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
     visualizer.drawStack(&stack, x1, y1, x2, y2, xOffset, yOffset);
+    stack.push(2);
+    visualizer.drawStack(&stack, x1, y1, x2, y2, xOffset, yOffset);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
+    stack.push(3);
+    visualizer.drawStack(&stack, x1, y1, x2, y2, xOffset, yOffset);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
+    stack.push(4);
+    visualizer.delay(1.0f);
+    visualizer.drawStack(&stack, x1, y1, x2, y2, xOffset, yOffset);
+    glfwSwapBuffers(visualizer.window);
 
     while (stack.size() != 0) {
         stack.pop();
         visualizer.drawStack(&stack, x1, y1, x2, y2, xOffset, yOffset);
+        glfwSwapBuffers(visualizer.window);
+        visualizer.delay(1.0f);
     }
 }
 
@@ -63,15 +97,30 @@ void show_stack(TreeVizualizer& visualizer) {
 
 void show_tree(TreeVizualizer& visualizer) {
 
-    TreeNode* root = new TreeNode(1);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(3);
-    root->left->left = new TreeNode(4);
-    root->left->right = new TreeNode(5);
     float x2 = 0.3f, y2 = 0.3f;
     float x1 = -0.1f, y1 = -0.1f;
+    TreeNode* root = new TreeNode(1);
     visualizer.drawTreeNode(root,x1,y1,x2,y2,WHITE);
-    bool found = root->DFS(4, root, visualizer, true);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
+    root->left = new TreeNode(2);
+    visualizer.drawTreeNode(root,x1,y1,x2,y2,WHITE);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
+    root->right = new TreeNode(3);
+    visualizer.drawTreeNode(root,x1,y1,x2,y2,WHITE);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
+    root->left->left = new TreeNode(4);
+    visualizer.drawTreeNode(root,x1,y1,x2,y2,WHITE);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
+    root->left->right = new TreeNode(5);
+    visualizer.drawTreeNode(root,x1,y1,x2,y2,WHITE);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
+    
+    // bool found = root->DFS(4, root, visualizer, true);
 }
 
 void show_graph(TreeVizualizer& visualizer) {
@@ -85,24 +134,24 @@ void show_graph(TreeVizualizer& visualizer) {
     float x2 = 0.1f, y2 = 0.1f;
 
     visualizer.drawGraph(node.get(), x1, y1, x2, y2, WHITE);
-
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
     node->insert_node(std::move(node1));
-    // visualizer.drawGraph(node.get(), x1, y1, x2, y2, WHITE);
+    visualizer.drawGraph(node.get(), x1, y1, x2, y2, WHITE);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
 
     node->insert_node(std::move(node2));
-    // visualizer.drawGraph(node.get(), x1, y1, x2, y2, WHITE);
+    visualizer.drawGraph(node.get(), x1, y1, x2, y2, WHITE);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
 
     node->insert_node(std::move(node3));
-    // visualizer.drawGraph(node.get(), x1, y1, x2, y2, WHITE);
+    visualizer.drawGraph(node.get(), x1, y1, x2, y2, WHITE);
+    glfwSwapBuffers(visualizer.window);
+    visualizer.delay(1.0f);
 
     // node->dijkstra(node.get(), node3.get(), &visualizer);
-
-    
-    // visualizer.drawGraph(node.get(), x1, y1, x2, y2, WHITE);
-
-    
-    visualizer.drawGraph(node.get(), x1, y1, x2, y2, WHITE);
-    
 }
 
 
