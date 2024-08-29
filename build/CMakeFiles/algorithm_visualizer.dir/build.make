@@ -156,6 +156,7 @@ algorithm_visualizer: CMakeFiles/algorithm_visualizer.dir/graph.cpp.o
 algorithm_visualizer: CMakeFiles/algorithm_visualizer.dir/main.cpp.o
 algorithm_visualizer: CMakeFiles/algorithm_visualizer.dir/tree.cpp.o
 algorithm_visualizer: CMakeFiles/algorithm_visualizer.dir/build.make
+algorithm_visualizer: /opt/homebrew/lib/libfreetype.dylib
 algorithm_visualizer: CMakeFiles/algorithm_visualizer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable algorithm_visualizer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algorithm_visualizer.dir/link.txt --verbose=$(VERBOSE)

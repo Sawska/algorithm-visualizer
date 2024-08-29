@@ -4,7 +4,6 @@ project(algorithm_visualizer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-
 if(APPLE)
     add_definitions(-Wno-deprecated-declarations)
 endif()
@@ -12,7 +11,7 @@ endif()
 
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
-
+find_package(Freetype REQUIRED)
 
 if(APPLE)
     set(OPENGL_LIBRARIES "-framework OpenGL")
@@ -26,13 +25,14 @@ endif()
 include_directories(/opt/homebrew/Cellar/freeglut/3.6.0/include)
 include_directories(/opt/homebrew/Cellar/glfw/3.4/include)
 include_directories(/opt/homebrew/Cellar/glew/2.2.0_1/include)
-include_directories(/opt/homebrew/Cellar/freetype/2.13.3/include)
+include_directories(/opt/homebrew/Cellar/glm/1.0.1/include/glm)
+include_directories(${FREETYPE_INCLUDE_DIRS})
 
 
 link_directories(/opt/homebrew/Cellar/freeglut/3.6.0/lib)
 link_directories(/opt/homebrew/Cellar/glfw/3.4/lib)
 link_directories(/opt/homebrew/Cellar/glew/2.2.0_1/lib)
-link_directories(/opt/homebrew/Cellar/freetype/2.13.3/lib)
+link_directories(/opt/homebrew/Cellar/glm/1.0.1/lib)
 
 
 file(GLOB SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
@@ -46,4 +46,5 @@ target_link_libraries(algorithm_visualizer
     ${GLUT_LIBRARIES}
     glfw
     GLEW
+    ${FREETYPE_LIBRARIES}
 )

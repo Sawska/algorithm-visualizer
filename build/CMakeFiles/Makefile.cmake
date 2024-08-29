@@ -24,6 +24,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/Cellar/cmake/3.30.1/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.1/share/cmake/Modules/Compiler/Clang.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.1/share/cmake/Modules/Compiler/GNU.cmake"
+  "/opt/homebrew/Cellar/cmake/3.30.1/share/cmake/Modules/FindFreetype.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.1/share/cmake/Modules/FindGLUT.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.1/share/cmake/Modules/FindOpenGL.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.1/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"

@@ -1794,6 +1794,7 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternalLegacy.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityMacros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityVersions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_ctermid.h \
@@ -1821,6 +1822,7 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/signal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/all_of.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/any_of.h \
@@ -2079,6 +2081,7 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__charconv/traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__chrono/duration.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__chrono/steady_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__chrono/system_clock.h \
@@ -2128,6 +2131,22 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__exception/nested_exception.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__exception/operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__exception/terminate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__format/buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__format/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__format/enable_insertable.h \
@@ -2300,6 +2319,7 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__thread/id.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__tuple/pair_like.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h \
@@ -2476,8 +2496,10 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/bit \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/climits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/clocale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cmath \
@@ -2497,8 +2519,12 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/execution \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/float.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
@@ -2508,6 +2534,7 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/mutex \
@@ -2516,6 +2543,7 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/setjmp.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdexcept \
@@ -2539,6 +2567,7 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/limits.h \
@@ -2563,6 +2592,7 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/runetype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/setjmp.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/stdlib.h \
@@ -2666,10 +2696,12 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/xlocale/_wctype.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
+  /Library/Frameworks/Mono.framework/Headers/ft2build.h \
   /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/LinkedList.h \
   /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/MyStack.h \
   /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/TreeVisualizer.h \
@@ -2678,7 +2710,270 @@ CMakeFiles/algorithm_visualizer.dir/main.cpp.o: /Users/alexanderkorzh/Desktop/co
   /opt/homebrew/Cellar/freeglut/3.6.0/include/GL/freeglut_std.h \
   /opt/homebrew/Cellar/freeglut/3.6.0/include/GL/glut.h \
   /opt/homebrew/Cellar/glew/2.2.0_1/include/GL/glew.h \
-  /opt/homebrew/Cellar/glfw/3.4/include/GLFW/glfw3.h
+  /opt/homebrew/Cellar/glfw/3.4/include/GLFW/glfw3.h \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/common.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/qualifier.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/setup.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_float.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat2x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat2x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat2x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_quat.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec1.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/exponential.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/scalar_int_sized.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/scalar_uint_sized.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int1.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_relational.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/geometric.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/constants.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/matrix.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/trigonometric.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vector_relational.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_clip_space.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double2x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double2x2_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double2x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double2x3_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double2x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double2x4_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double3x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double3x2_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double3x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double3x3_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double3x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double3x4_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double4x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double4x2_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double4x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double4x3_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double4x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double4x4_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float2x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float2x2_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float2x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float2x3_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float2x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float2x4_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float3x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float3x2_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float3x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float3x3_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float3x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float3x4_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float4x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float4x2_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float4x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float4x3_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float4x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float4x4_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_projection.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_transform.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_common.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_geometric.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_relational.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_transform.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_trigonometric.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/scalar_constants.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool2_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool3_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool4_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double2_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double3_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double4_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float2_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float3_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float4_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int2_sized.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int3_sized.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int4_sized.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_relational.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_relational.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint2_sized.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint3_sized.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint4_sized.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/common.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/common.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/exponential.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_common.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_relational.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/geometric.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/constants.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/matrix.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/simd/platform.h \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/trigonometric.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vector_relational.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/compute_vector_relational.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/_fixes.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/_vectorize.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/compute_common.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/compute_vector_relational.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_common.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_exponential.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_geometric.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_integer.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_matrix.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_packing.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_trigonometric.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_vector_relational.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/qualifier.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/setup.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_half.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_half.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat2x2.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat2x3.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat2x4.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x2.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x3.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x4.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x2.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x3.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x4.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_quat.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec1.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec1.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec2.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec3.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec4.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/exponential.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/fwd.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/geometric.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/glm.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/common.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/qualifier.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/setup.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/exponential.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_clip_space.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_projection.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_transform.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_common.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_double.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_double_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_float.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_float_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_geometric.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_relational.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_transform.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_trigonometric.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/scalar_constants.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool1.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool1_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double1.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double1_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float1.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float1_precision.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int1.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int1_sized.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_relational.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint1.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint1_sized.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/geometric.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/constants.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/quaternion.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/vec1.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat2x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat2x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat2x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat3x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat3x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat3x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat4x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat4x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat4x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/matrix.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/trigonometric.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vec2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vec3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vec4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vector_relational.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/constants.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/epsilon.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/epsilon.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/matrix_transform.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/matrix_transform.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/quaternion.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/type_ptr.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/type_ptr.inl \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/integer.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat2x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat2x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat2x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat3x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat3x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat3x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat4x2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat4x3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat4x4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/matrix.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/packing.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/trigonometric.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vec2.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vec3.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vec4.hpp \
+  /opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vector_relational.hpp \
+  /opt/homebrew/include/freetype2/freetype/config/ftconfig.h \
+  /opt/homebrew/include/freetype2/freetype/config/ftheader.h \
+  /opt/homebrew/include/freetype2/freetype/config/ftoption.h \
+  /opt/homebrew/include/freetype2/freetype/config/ftstdlib.h \
+  /opt/homebrew/include/freetype2/freetype/config/integer-types.h \
+  /opt/homebrew/include/freetype2/freetype/config/mac-support.h \
+  /opt/homebrew/include/freetype2/freetype/config/public-macros.h \
+  /opt/homebrew/include/freetype2/freetype/freetype.h \
+  /opt/homebrew/include/freetype2/freetype/fterrdef.h \
+  /opt/homebrew/include/freetype2/freetype/fterrors.h \
+  /opt/homebrew/include/freetype2/freetype/ftimage.h \
+  /opt/homebrew/include/freetype2/freetype/ftmoderr.h \
+  /opt/homebrew/include/freetype2/freetype/ftsystem.h \
+  /opt/homebrew/include/freetype2/freetype/fttypes.h
 
 CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/tree.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
@@ -3571,6 +3866,250 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
   /opt/homebrew/Cellar/glfw/3.4/include/GLFW/glfw3.h
 
 
+/opt/homebrew/include/freetype2/freetype/config/ftstdlib.h:
+
+/opt/homebrew/include/freetype2/freetype/config/ftoption.h:
+
+/opt/homebrew/include/freetype2/freetype/config/ftconfig.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/type_ptr.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/epsilon.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/constants.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vec3.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat4x3.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat4x2.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat3x3.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat2x3.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat2x2.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/vec1.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint1_sized.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int1_sized.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float1_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double1_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_trigonometric.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_float_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_double_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_transform.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_projection.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/glm.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/fwd.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec4.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec2.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_quat.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x3.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x4.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x3.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_half.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_half.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_integer.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_common.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/compute_common.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/_vectorize.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/_fixes.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/compute_vector_relational.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_relational.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_common.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint2_sized.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int4_sized.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int3_sized.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float3.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint4_sized.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double4_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double4.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double3.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double2_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double2.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool4_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool3_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_trigonometric.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_transform.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_relational.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_geometric.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_common.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_transform.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_projection.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float4x4.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec3.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float4x3_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float4x2_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float3x4_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float3x4.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float3x3.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float3x2_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float2x4.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float2x3_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float2x2_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double4x4_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double4x4.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double4x2_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double4x2.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double3x4_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double3x4.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double3x2_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double3x2.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double2x3.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double2x2_precision.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double2x2.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_clip_space.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/trigonometric.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/constants.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/geometric.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint3.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint1.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_relational.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool1.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int3.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int2.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/scalar_int_sized.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec1.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_quat.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x4.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x2.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x4.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x3.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat2x4.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_float.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/common.hpp:
+
+/Library/Frameworks/Mono.framework/Headers/ft2build.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/setjmp.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/float.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/setjmp.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/float.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/filesystem:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/u8path.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double2x4_precision.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/space_info.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/perms.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/file_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/file_status.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/matrix_transform.inl:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/directory_options.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_float.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityMacros.h:
+
 /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/main.cpp:
 
 /opt/homebrew/Cellar/glfw/3.4/include/GLFW/glfw3.h:
@@ -3597,9 +4136,13 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/xlocale/_stdio.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/quaternion.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/xlocale/_ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/wctype.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/simd/platform.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/wchar.h:
 
@@ -3611,7 +4154,11 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/qos.h:
 
+/opt/homebrew/include/freetype2/freetype/ftsystem.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/cdefs.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_va_list.h:
 
@@ -3627,6 +4174,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_timeval.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_time_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_suseconds_t.h:
@@ -3637,6 +4186,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_sigaltstack.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float2x4_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_rune_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_rsize_t.h:
@@ -3645,11 +4196,15 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_nlink_t.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/type_ptr.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_mode_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_mbstate_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_mach_port_t.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool1_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_key_t.h:
 
@@ -3658,6 +4213,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_int8_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_int64_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__tree:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_int32_t.h:
 
@@ -3673,11 +4230,17 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_fd_isset.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat2x3.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_fd_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_fd_clr.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_double.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_errno_t.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_dev_t.h:
 
@@ -3729,6 +4292,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/locale.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/setup.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
@@ -3740,6 +4305,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/vector:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__chrono/file_clock.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/execution:
 
@@ -3761,11 +4328,15 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/string.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vector_relational.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/string:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stddef.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double4x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ratio:
 
@@ -3789,6 +4360,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/typeinfo:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_vector_relational.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iosfwd:
@@ -3809,6 +4382,10 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdarg:
 
+/opt/homebrew/include/freetype2/freetype/fterrors.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ostream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__charconv/tables.h:
@@ -3819,15 +4396,21 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__variant/monostate.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float2x2.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__utility/to_underlying.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat2x4.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__utility/priority_tag.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__utility/forward_like.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h:
 
@@ -3866,6 +4449,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/machine/endian.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/promote.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float4x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__system_error/error_category.h:
 
@@ -3906,6 +4491,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_union.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat3x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_move_assignable.h:
 
@@ -4009,6 +4596,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_always_bitcastable.h:
 
+/opt/homebrew/include/freetype2/freetype/config/integer-types.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__atomic/contention_t.h:
@@ -4051,6 +4640,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/decay.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double3_precision.hpp:
+
 /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/graph.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_fd_set.h:
@@ -4060,6 +4651,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/copy_cv.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/memory:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/path.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/common_type.h:
 
@@ -4087,6 +4680,10 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__tuple/tuple_like_ext.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint3_sized.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/unique_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__tuple/tuple_element.h:
@@ -4094,6 +4691,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__tuple/pair_like.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/quaternion.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/errno.h:
 
@@ -4105,6 +4704,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x2.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__string/char_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__split_buffer:
@@ -4112,6 +4713,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__ranges/subrange.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__ranges/size.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double2x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/machine/_types.h:
 
@@ -4145,11 +4748,15 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__random/is_valid.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__atomic/atomic.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h:
+
+/opt/homebrew/include/freetype2/freetype/ftimage.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__numeric/transform_reduce.h:
 
@@ -4170,6 +4777,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__mutex/tag_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/predicate_traits.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_uint2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__mutex/mutex.h:
 
@@ -4219,6 +4828,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/strip_signature.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat3x4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/ranges_uninitialized_algorithms.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/system_error:
@@ -4233,15 +4844,23 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double3x3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_in_addr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/includes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat2x3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__atomic/aliases.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/destruct_n.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_trigonometric.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double3x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/construct_at.h:
 
@@ -4264,6 +4883,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__concepts/constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec1.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:
 
@@ -4303,6 +4924,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/ostreambuf_iterator.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float3_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/type_traits:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
@@ -4329,6 +4952,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/copy_cvref.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/packing.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
@@ -4342,6 +4967,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/remove_extent.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float4x4_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/empty.h:
 
@@ -4366,6 +4993,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/access.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/advance.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__bit/byteswap.h:
 
@@ -4393,9 +5022,13 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_pointer.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_geometric.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_ctermid.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/alloca.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
 
@@ -4404,6 +5037,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__std_mbstate_t.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vec2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
 
@@ -4433,7 +5068,11 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/bind_front.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_matrix.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/bitset:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__concepts/copyable.h:
 
@@ -4461,6 +5100,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/min_max_result.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double2x3_precision.hpp:
+
 /Users/alexanderkorzh/Desktop/coding/algorihm_visualizer/tree.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/libdispatch.h:
@@ -4470,6 +5111,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__format/enable_insertable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__format/buffer.h:
+
+/opt/homebrew/include/freetype2/freetype/config/ftheader.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__compare/compare_weak_order_fallback.h:
 
@@ -4487,6 +5130,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/mach/machine/_structs.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_double1.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__concepts/swappable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__concepts/semiregular.h:
@@ -4503,7 +5148,11 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types/_wctype_t.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/vec4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat4x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__concepts/convertible_to.h:
 
@@ -4541,6 +5190,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__concepts/same_as.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x2.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cwctype:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/hash.h:
@@ -4571,7 +5222,11 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/indirectly_comparable.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/mat2x4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/merge.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_double4x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__chrono/system_clock.h:
 
@@ -4607,6 +5262,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config_site:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float3x2.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_member_object_pointer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__bit/has_single_bit.h:
@@ -4621,6 +5278,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__bit/countr.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat2x2.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/count_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_destructible.h:
@@ -4630,6 +5289,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__bit/bit_log2.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__bit/bit_floor.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/qualifier.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_remove.h:
 
@@ -4683,6 +5344,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__atomic/atomic_lock_free.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/epsilon.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_nth_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/pthread/sched.h:
@@ -4727,6 +5390,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/shift_left.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float3x3_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/climits:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
@@ -4757,6 +5422,10 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/next.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/integer.hpp:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float2x3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/search.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__atomic/kill_dependency.h:
@@ -4771,6 +5440,10 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_fill.h:
 
+/opt/homebrew/include/freetype2/freetype/fterrdef.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float2_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/reverse.h:
@@ -4783,11 +5456,19 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
 
+/opt/homebrew/include/freetype2/freetype/config/public-macros.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_exponential.inl:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/scalar_uint_sized.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_pid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_unique.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_swap_ranges.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/assert.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdint.h:
 
@@ -4813,9 +5494,13 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdio.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/operations.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
 
@@ -4830,6 +5515,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/operations.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int2_sized.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_reverse.h:
 
@@ -4851,9 +5538,13 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_clip_space.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/Availability.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_transform.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float4_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__tuple/tuple_indices.h:
 
@@ -4875,9 +5566,13 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/map:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__concepts/destructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__atomic/atomic_base.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/matrix_float4x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/limits.h:
 
@@ -4901,6 +5596,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_find.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/gtc/matrix_transform.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/libkern/arm/OSByteOrder.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/bind.h:
@@ -4910,6 +5607,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/in_found_result.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_make_heap.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_transform.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_lower_bound.h:
 
@@ -4932,6 +5631,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_is_partitioned.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__exception/operations.h:
+
+/opt/homebrew/include/freetype2/freetype/fttypes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__utility/terminate_on_exception.h:
 
@@ -4987,6 +5688,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__exception/nested_exception.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat3x2.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_count_if.h:
@@ -5015,11 +5718,15 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/any_of.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/quaternion_geometric.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__fwd/array.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_uid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_clamp.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_vec2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__string/extern_template_lists.h:
 
@@ -5029,6 +5736,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_binary_search.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/scalar_constants.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_all_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_unique_copy.h:
@@ -5036,6 +5745,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__ranges/data.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/fstream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_stable_sort.h:
 
@@ -5063,6 +5774,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_sort.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/func_packing.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_generate.h:
@@ -5076,6 +5789,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__fwd/subrange.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_backend.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat2x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/is_heap.h:
 
@@ -5093,7 +5808,11 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/matrix.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/new:
 
@@ -5102,6 +5821,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__ranges/enable_view.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/partition.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/scalar_constants.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/move.h:
 
@@ -5161,9 +5882,13 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_float1.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_relational.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_symbol_aliasing.h:
 
@@ -5185,9 +5910,13 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iomanip:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/move_backward.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/detail/type_mat4x4.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
@@ -5241,11 +5970,15 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_wctype.h:
 
+/opt/homebrew/include/freetype2/freetype/freetype.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_seek_set.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/aligned_storage.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/in_in_result.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/exponential.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
 
@@ -5273,6 +6006,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_for_each.h:
 
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_bool2.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
@@ -5289,13 +6024,19 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/signal.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cfloat:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/string.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/deque:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/limits.h:
 
+/opt/homebrew/include/freetype2/freetype/ftmoderr.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/wchar.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cassert:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/errno.h:
 
@@ -5317,9 +6058,13 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types/_wctrans_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__concepts/predicate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
+
+/opt/homebrew/Cellar/glm/1.0.1/include/glm/glm/ext/vector_int1.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
 
@@ -5343,6 +6088,8 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__tuple/tuple_like.h:
 
+/opt/homebrew/include/freetype2/freetype/config/mac-support.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/xlocale/_string.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
@@ -5360,5 +6107,7 @@ CMakeFiles/algorithm_visualizer.dir/tree.cpp.o: /Users/alexanderkorzh/Desktop/co
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_xlocale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__compare/weak_order.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/float.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_class.h:

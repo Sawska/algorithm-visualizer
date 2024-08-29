@@ -69,7 +69,7 @@ void TreeVizualizer::drawCircle(float x, float y, float radius, int value, int h
     glUseProgram(0);
 
     std::string valStr = std::to_string(value);
-    // RenderText(valStr, x - radius / 2, y - radius / 2, 0.5f, glm::vec3(1.0f, 1.0f, 1.0f));
+    RenderText(valStr, x - radius / 2, y - radius / 2, 0.5f, glm::vec3(1.0f, 1.0f, 1.0f));
 
     glDeleteBuffers(1, &VBO);
     glDeleteVertexArrays(1, &VAO);
@@ -301,7 +301,7 @@ void TreeVizualizer::drawRectangle(float x1, float y1, float x2, float y2, int v
     float textY = y1 + (y2 - y1) / 2 + 5;
 
     std::string valStr = std::to_string(value);
-    output(textX, textY, 0.0f, 0.0f, 0.0f, GLUT_BITMAP_TIMES_ROMAN_24, valStr.c_str());
+    RenderText(valStr, textX, textY, 0.5f, glm::vec3(1.0f, 1.0f, 1.0f));
 }
 
 
@@ -340,4 +340,42 @@ void TreeVizualizer::hexToRgb(int hexValue, float& r, float& g, float& b) {
 
 void TreeVizualizer::delay(float seconds) {
     glfwWaitEventsTimeout(seconds);
+}
+
+void TreeVizualizer::RenderText(std::string text, float x, float y, float scale, glm::vec3 color) 
+{
+     textShader.Use();
+        glUniform3f(glGetUniformLocation(textShader.Program, "textColor"), color.x, color.y, color.z);
+        glActiveTexture(GL_TEXTURE0);
+        glBindVertexArray(VAO);
+
+        std::string::const_iterator c;
+        for (c = text.begin(); c != text.end(); c++) {
+            Character ch = Characters.at(*c);
+
+            float xpos = x + ch.Bearing.x * scale;
+            float ypos = y - (ch.Size.y - ch.Bearing.y) * scale;
+            float w = ch.Size.x * scale;
+            float h = ch.Size.y * scale;
+
+            GLfloat vertices[6][4] = {
+                { xpos,     ypos + h,   0.0f, 0.0f },
+                { xpos,     ypos,       0.0f, 1.0f },
+                { xpos + w, ypos,       1.0f, 1.0f },
+
+                { xpos,     ypos + h,   0.0f, 0.0f },
+                { xpos + w, ypos,       1.0f, 1.0f },
+                { xpos + w, ypos + h,   1.0f, 0.0f }
+            };
+
+            glBindTexture(GL_TEXTURE_2D, ch.TextureID);
+            glBindBuffer(GL_ARRAY_BUFFER, VBO);
+            glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(vertices), vertices);
+            glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+            glDrawArrays(GL_TRIANGLES, 0, 6);
+            x += (ch.Advance >> 6) * scale;
+        }
+        glBindVertexArray(0);
+        glBindTexture(GL_TEXTURE_2D, 0);
 }
